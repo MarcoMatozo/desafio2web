@@ -1,0 +1,67 @@
+/* CadastroReserva.css */
+body {
+  background-color: #9a9c9a; /* Cinza */
+}
+
+
+.form-container {
+  display: flex;
+  justify-content:left; /* Centraliza horizontalmente */
+  align-items: flex-start; /* Alinha ao topo */
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+;
+}
+
+.form-container form {
+  width: 100%;
+  max-width: 500px; /* Ajusta a largura máxima do formulário */
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.form-container input {
+  padding: 12px; /* Aumenta o tamanho do campo */
+  margin-bottom: 1px;
+  border-radius: 5px;
+  border: 1px solid #6c2424;
+  transition: border-color 0.3s ease;
+  width: 100%; /* Ocupa todo o espaço disponível */
+  box-sizing: border-box; /* Inclui padding e borda no tamanho total */
+}
+
+.form-container input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-start; /* Alinha os botões à direita */
+  width: 100%;
+  margin-top: 1px;
+}
+
+.button-container button {
+  padding: 12px 20px;
+  margin-right: 10px; 
+  background-color: #29d5d2;
+  color: #0c0c0c;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+  background-color: #08886a;
+}

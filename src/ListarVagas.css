@@ -1,0 +1,42 @@
+.list-container {
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  .list-container h2 {
+    text-align: center;
+  }
+  
+  .list-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .list-container th, .list-container td {
+    padding: 8px;
+    border-bottom: 1px solid #1e5923;
+  }
+  
+  .list-container th {
+    background-color: #2aa0a0;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .list-container tr:hover {
+    background-color: #0d6b85;
+  }
+  
+  .list-container button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .list-container button:hover {
+    background-color: #0056b3;
+  }
+  
